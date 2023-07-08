@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# self defined
+!/include/
+!/src/
+!/test/
+
+/.vscode/
+/build/
+/qemu/
+/rvtoolchain/
