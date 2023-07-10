@@ -21,6 +21,7 @@ namespace REGISTER {
             &x16_a6,             &x17_a7, &x18_s2,  &x19_s3,
             &x20_s4,             &x21_s5, &x22_s6,  &x23_s7,
             &x24_s8,             &x25_s9, &x26_s10, &x27_s11,
-            &x28_t3,             &x29_t4, &x30_t5,  &x31_t6}
-        { ; }
+            &x28_t3,             &x29_t4, &x30_t5,  &x31_t6} { ; }
+
+    RegisterFile::~RegisterFile() { ; }
 }
